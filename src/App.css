@@ -1,0 +1,84 @@
+.app {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addTask input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 1rem;
+    font-size: 24px;
+    width: 65%;
+    background-color: #ffffff8e;
+}
+
+.addTask button {
+    background-color: #62f01f;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    width: 30%;
+}
+
+.showTask button {
+    border: none;
+    font-size: 24px;
+}
+
+.footer {
+    margin: 1rem;
+    margin-top: 30%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 550px) {
+    .app {
+        width: 95%;
+    }
+
+    .addTask input {
+        font-size: 14px;
+        width: 60%;
+    }
+
+    .addTask button {
+        font-size: 14px;
+        width: 25%;
+    }
+
+    .header .logo span {
+        font-size: 14px;
+    }
+
+    .showTask .head button {
+        font-size: 10px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
+
+.footer .copyright {
+    margin: 1rem;
+}
+
+.footer p {
+    margin: 1rem;
+}
