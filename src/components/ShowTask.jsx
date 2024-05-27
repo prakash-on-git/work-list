@@ -5,12 +5,12 @@ export const ShowTask = ({ taskList, setTaskList, task, setTask }) => {
   }
 
   function handleDelete(idd) {
-    setTaskList(taskList.filter(task => task.id != idd));
+    setTaskList(taskList.filter(task => task.id !== idd));
     alert("mirakal");
   }
 
   function handleEdit(id) {
-    setTask(taskList.find(todo => todo.id == id));
+    setTask(taskList.find(todo => todo.id === id));
   }
 
   return (
